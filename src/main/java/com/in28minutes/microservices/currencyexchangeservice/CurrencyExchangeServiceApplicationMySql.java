@@ -26,9 +26,12 @@ public class CurrencyExchangeServiceApplicationMySql implements CommandLineRunne
 		long count = repository.count();
 
 		if (count == 0) {
-			repository.save(new ExchangeValue(10001L, "USD", "INR", BigDecimal.valueOf(60)));
-			repository.save(new ExchangeValue(10002L, "EUR", "INR", BigDecimal.valueOf(70)));
-			repository.save(new ExchangeValue(10003L, "AUD", "INR", BigDecimal.valueOf(20)));
+			repository.save(new ExchangeValue(10001L, "USD", "INR", BigDecimal.valueOf(78)));
+			repository.save(new ExchangeValue(10002L, "EUR", "INR", BigDecimal.valueOf(82)));
+			repository.save(new ExchangeValue(10003L, "AUD", "INR", BigDecimal.valueOf(54)));
+			repository.save(new ExchangeValue(10004L, "AED", "INR", BigDecimal.valueOf(21)));
+			repository.save(new ExchangeValue(10005L, "SGD", "INR", BigDecimal.valueOf(56)));
+			repository.save(new ExchangeValue(10006L, "CAD", "INR", BigDecimal.valueOf(61)));
 		}
 	}
 
