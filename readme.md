@@ -32,6 +32,7 @@ spring.datasource.url=jdbc:mysql://${RDS_HOSTNAME:localhost}:${RDS_PORT:3306}/${
 spring.datasource.username=${RDS_USERNAME:exchange-db-user}
 spring.datasource.password=${RDS_PASSWORD:dummyexchange}
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL57Dialect
+
 ```
 
 #### src/test/resources/application.properties
