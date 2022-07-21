@@ -1,4 +1,4 @@
-FROM 243587609515.dkr.ecr.us-east-1.amazonaws.com/openjdk:8-jdk-alpine
+FROM 864315636029.dkr.ecr.us-east-1.amazonaws.com/openjdk:8-jdk-alpine
 RUN mkdir /app
 COPY target/*.jar /app/app.jar
 EXPOSE 8000
