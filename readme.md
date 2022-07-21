@@ -1,7 +1,5 @@
 # Currency Exchange Micro Service - Mysql
 
-
-
 Run com.in28minutes.microservices.currencyconversionservice.CurrencyConversionServiceApplicationMySql as a Java Application.
 
 Application uses h2 database to run the tests.
